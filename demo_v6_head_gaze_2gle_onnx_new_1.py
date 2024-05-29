@@ -1,5 +1,5 @@
-from face_detection import RetinaFace
-from model import SixDRepNet, SixDStartNet
+# from face_detection import RetinaFace
+# from model import SixDRepNet, SixDStartNet
 import math
 import re
 from matplotlib import pyplot as plt
@@ -34,6 +34,7 @@ from tools import kmeans_calib
 from collections import deque
 import pubilc_demo_infer.utils as utils_1
 from loss import GeodesicLoss
+from tqdm import tqdm
 
 # matplotlib.use('TkAgg')
 
